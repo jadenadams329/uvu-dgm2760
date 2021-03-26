@@ -1,0 +1,52 @@
+header{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-image: url(../images/markus-winkler-cS2eQHB7wE4-unsplash.jpg);
+    height: 300px;
+    color: white;  
+    text-shadow: 2px 2px black;
+    
+}
+header h1{
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+header h2{
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+main{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+main h2{
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+main ul li{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    padding: 16px;
+    list-style: none;
+    background-image: url(../images/check-box.png);
+    background-repeat: no-repeat;
+    background-position: left;
+	background-size: 10px;
+}
+main p{
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+footer{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
