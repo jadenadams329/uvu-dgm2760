@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Joe's Bead and Breakfast</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="company"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+    <main>
+        <h2>
+            What I learned in this unit:
+        </h2>
+        <ul>
+            <li>
+                Install, configure and use Visual Studio Code (VS Code) for web development.
+            </li>
+            <li>
+                Create a modern HTML page with linked CSS and JavaScript files.
+            </li>
+            <li>
+                Create a proper header with a background image.
+            </li>
+            <li>
+                Dynamically alter the page data shown at load time by inserting data into the page using JavaScript.
+            </li>
+            <li>
+                Use the built in prompt method to obtain user input.
+            </li>
+            <li>
+                Create web pages that are pushed to GitHub and deployed using Netlify.
+            </li>
+        </ul>
+        <h3>
+            Today's Date is
+            <script>
+                let theDate = new Date();
+                document.write(theDate.toLocaleDateString());
+            </script>
+        </h3>
+        <p id="greeting"></p>
+
+    </main>
+    <footer>
+        <p>Assignment for DGM2760 by Jaden Adams</p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
