@@ -8,20 +8,15 @@ document.querySelector('#pageTitle').innerHTML = "High/Low Guessing Game";
 document.querySelector('#instruction').innerHTML = "Instructions:";
 
 let correctNumber = Math.floor(Math.random() * 15);
-
 let guessed = false
 let totalGuesses = 0
 let gamerGuess = 0
 const feedBack = document.querySelector('#feedback')
 correctNumber += 1
 
-console.log(`The correct number is ${correctNumber}`)
-
-
 function evalGuess(){
     totalGuesses += 1 //total guesses
     gamerGuess = document.querySelector('#guess').value
-
 
     if (gamerGuess == correctNumber){
         
@@ -72,7 +67,7 @@ function giveAward(){
     const ribbon = document.querySelector('#ribbon')
 
     if(ribbon.hasChildNodes()){
-        
+
         feedBack.innerText = 'Please refresh the page'
 
     }else{
@@ -80,9 +75,5 @@ function giveAward(){
         ribbon.appendChild(awardImage)
 
     }
-
-    
-
-    
 
 }
