@@ -69,6 +69,7 @@ function giveAward(){
     if(ribbon.hasChildNodes()){
 
         feedBack.innerText = 'Please refresh the page'
+        totalGuesses -= 1
 
     }else{
 
