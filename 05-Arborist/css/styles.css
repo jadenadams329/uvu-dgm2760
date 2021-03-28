@@ -1,0 +1,100 @@
+header{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-image: url(../images/senad-palic-7mvRyd49Px0-unsplash.jpg);
+    height: 300px;  
+    text-shadow: 1px 1px black;
+}
+h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: 10px 10px;
+    
+}
+h2{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: medium;
+    margin: 0 10px;
+}
+main{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#displayResults{
+    background-color: lightgreen;
+}
+#error{
+    background-color: red;
+}
+main h1 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+main h2{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: medium;
+    margin: 10px;
+}
+main ul li{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: light;
+    padding: 16px;
+    list-style: none;
+    background-image: url(../images/check-box.png);
+    background-repeat: no-repeat;
+    background-position: left;
+	background-size: 10px;
+
+}
+main h3{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+main p{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: medium;
+    margin: 0;
+}
+main span{
+    color: red;
+}
+button{
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;  
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+footer{
+    max-width: 1024px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: light;
+    text-align: center;
+    background-color: #4CAF50;
+}
+
