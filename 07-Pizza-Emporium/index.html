@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 Pizza Emporium</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="company"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+    <main>
+        <h1 id="pageTitle"></h1>
+        <div class="container">
+            <div>
+                <h2>
+                    What I learned in this unit:
+                </h2>
+                <ul>
+                    <li>
+                        Create an object literal with properties and methods
+                    </li>
+                    <li>
+                        Set the properties in an object
+                    </li>
+                    <li>
+                        Access the properties in an object
+                    </li>
+                    <li>
+                        Access the methods of an object
+                    </li>
+                    <li>
+                        Use math operators
+                    </li>
+                    <li>
+                        Use template literals
+                    </li>
+                    <li>
+                        Use querySelector and textContent to dynamically change the text on the screen
+                    </li>
+                </ul>
+                <h2>Crust Options:</h2>
+                <div class="radioButtons">
+                    <input type="radio" id="thin" name="crust" value="thin" checked>
+                    <label for="thin">Thin Crust</label>
+
+                    <input type="radio" id="thick" name="crust" value="thick">
+                    <label for="thick">Thick Crust</label>
+                </div>
+
+                <h2>Topping Options:</h2>
+                <div class="radioButtons">
+                    <input type="radio" id="pepperoni" name="toppings" value="pepperoni" checked>
+                    <label for="pepperoni">Pepperoni</label>
+
+                    <input type="radio" id="ham" name="toppings" value="ham">
+                    <label for="ham">Ham</label>
+                </div>
+
+                <h2>Pizza Size:</h2>
+                <div class="radioButtons">
+                    <input type="radio" id="small" name="size" value="small" checked>
+                    <label for="small">Small</label>
+
+                    <input type="radio" id="large" name="size" value="large">
+                    <label for="large">Large</label>
+                </div>
+
+                <h2>Time to Eat</h2>
+                <button id="build">Build Pizza</button>
+
+                <h2>Shopping List</h2>
+                <button id="shopping">Shopping List</button>
+
+                <h2>Messages back to the user:</h2>
+                <p id="feedback"></p>
+            </div>
+
+    </main>
+    <footer>
+        <p>Assignment for DGM2760 by Jaden Adams</p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
