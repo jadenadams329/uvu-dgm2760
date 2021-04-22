@@ -1,0 +1,90 @@
+header{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-image: url(../images/rio-lecatompessy-p77qNCTFEJQ-unsplash.jpg);
+    height: 300px;  
+
+}
+h1{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: 10px 10px;
+    
+}
+h2{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: medium;
+    margin: 0 10px;
+}
+main{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main h1 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+main h2{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: medium;
+    margin: 10px;
+}
+main ul li.li{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: light;
+    padding: 16px;
+    list-style: none;
+    background-image: url(../images/check-box.png);
+    background-repeat: no-repeat;
+    background-position: left;
+	background-size: 10px;
+
+}
+ul.hotels{
+    list-style: none;
+}
+
+ul.hotels li a:link, a:visited{
+  background-color: black;
+  width: 25%;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+main h3{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    margin: 0 10px;
+}
+main img{
+    margin: 0 10px;
+}
+
+main p{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: medium;
+    margin: 10px 10px;
+}
+
+
+footer{
+    max-width: 1024px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: light;
+    text-align: center;
+    background-color: black;
+}
+

@@ -1,0 +1,35 @@
+{
+    "hotels": [
+        {
+            
+            "name": "Marriot",
+            "rooms": 50,
+            "gyms": "Yes",
+            "roomTypes": [
+                "King", "Queen", "Double"
+            ],
+            "address": "1234 Fake Street",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": 520,
+            "gyms": "Yes",
+            "roomTypes": [
+                "King", "Queen", "Double"
+            ],
+            "address": "1235 Fake Street",
+            "picture": "room2.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": 120,
+            "gyms": "No",
+            "roomTypes": [
+                "King", "Queen", "Double"
+            ],
+            "address": "1236 Fake Street",
+            "picture": "room3.jpg"
+        }
+    ]
+}
